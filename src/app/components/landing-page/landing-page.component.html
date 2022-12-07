@@ -1,0 +1,147 @@
+<!-- slider -->
+<div class="container navbar">
+  <app-navbar></app-navbar>
+</div>
+<section>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon main-cover-button"
+      aria-hidden="true"
+    ></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon main-cover-button"
+      aria-hidden="true"
+    ></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <div
+    class="carousel slide sliderMain"
+    data-bs-ride="carousel"
+    id="carouselExampleControls"
+  >
+    <div class="logo d-flex justify-content-center align-item-center">
+      <div>
+        <h1 class="logo-text pt-5 d-none d-md-block d-lg-block">HOM</h1>
+      </div>
+      <div>
+        <img class="logo-image pt-lg-3" src="../assets/images/logo.png" />
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active bg-1 itemHeight">
+        <div class="carousel-caption">
+          <h3>HOUSE OF MALL</h3>
+          <p>Taste the best dry fruit here</p>
+        </div>
+      </div>
+      <div class="carousel-item bg-2 itemHeight">
+        <div class="carousel-caption">
+          <h3>HOUSE OF MALL2</h3>
+          <p>Taste the best dry fruit here</p>
+        </div>
+      </div>
+      <div class="carousel-item bg-3 itemHeight">
+        <div class="carousel-caption">
+          <h3>HOUSE OF MALL3</h3>
+          <p>Taste the best dry fruit here</p>
+        </div>
+      </div>
+      <div class="carousel-item bg-4 itemHeight">
+        <div class="carousel-caption">
+          <h3>HOUSE OF MALL4</h3>
+          <p>Taste the best dry fruit here</p>
+        </div>
+      </div>
+    </div>
+    <!--thumbnails-->
+    <div class="carousel-indicators">
+      <button
+        aria-label="Slide 1"
+        class="active"
+        data-bs-slide-to="0"
+        data-bs-target="#carouselExampleCaptions"
+        type="button"
+      ></button>
+      <button
+        aria-label="Slide 2"
+        data-bs-slide-to="1"
+        data-bs-target="#carouselExampleCaptions"
+        type="button"
+      ></button>
+      <button
+        aria-label="Slide 3"
+        data-bs-slide-to="2"
+        data-bs-target="#carouselExampleCaptions"
+        type="button"
+      ></button>
+      <button
+        aria-label="Slide 4"
+        data-bs-slide-to="3"
+        data-bs-target="#carouselExampleCaptions"
+        type="button"
+      ></button>
+    </div>
+  </div>
+</section>
+<div
+  id="carouselExampleControls"
+  class="carousel slide"
+  data-bs-ride="carousel"
+></div>
+
+<!-- products section -->
+<section>
+  <div class="container-fluid products-wrapper">
+    <div class="products-heading text-center pt-5">
+      <diV class=""><h1>Best Products</h1></diV>
+      <div class=""><p>Taste the best dry fruit here</p></div>
+      <div>
+        <img
+          class="product-star-image"
+          src="/assets/images/products-stars.png"
+        />
+      </div>
+      <div class="pt-4">
+        <button class="mx-3 p-3 product-button-radius">Dried seeds</button>
+        <button class="product-button-radius p-3">Spicy Masalas</button>
+      </div>
+    </div>
+    <section>
+      <div class="product">
+        <div class="slider-wrapper text-center">
+          <div class="slider-main">
+            <div class="item mx-2 shadow">
+              <div class="text">1</div>
+            </div>
+            <div class="item mx-2 shadow">
+              <div class="text">2</div>
+            </div>
+            <div class="item mx-2 shadow">
+              <div class="text">3</div>
+            </div>
+            <div class="item mx-2 shadow">
+              <div class="text">4</div>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="button" class="prev">Prev</button>
+            <button type="button" class="next">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
